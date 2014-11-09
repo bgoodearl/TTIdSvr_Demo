@@ -25,3 +25,4 @@ Started with Empty VS 2013 project named "Demo"
 	https://github.com/thinktecture/Thinktecture.IdentityServer.v3.Samples/tree/master/source/SelfHost%20(Minimal)/SelfHost
 10) Simplified Startup
 11) In Clients, tokenClient, set RequireConsent = false - simplifies demo because data not persisted with in-memory client
+12) Commit named "Simplified Startup" mis-named - contains initial implementation.
