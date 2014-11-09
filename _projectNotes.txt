@@ -24,3 +24,4 @@ Started with Empty VS 2013 project named "Demo"
 9) Modeled content in files from 7 and 8 after code from:
 	https://github.com/thinktecture/Thinktecture.IdentityServer.v3.Samples/tree/master/source/SelfHost%20(Minimal)/SelfHost
 10) Simplified Startup
+11) In Clients, tokenClient, set RequireConsent = false - simplifies demo because data not persisted with in-memory client
