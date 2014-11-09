@@ -1,0 +1,26 @@
+
+Started with Empty VS 2013 project named "Demo"
+
+1) Renamed Solution/Project to TTIdSvr_Demo
+2) Enbled SSL URL, added SSL url to project web for startup
+3) Added index.html, added defaultDocument under system.webServer to use as default page
+4) Installed packages
+	Microsoft.Owin.Host.SystemWeb (3.0.0)
+	gets
+		Microsoft.Owin 3.0.0
+		Owin 1.0
+	Microsoft.Owin.Security (3.0.0)
+	Microsoft.IdentityModel.Protocol.Extensions (1.0.1)
+	gets
+		System.IdentityModel.Tokens.Jwt 4.0.1
+	Thinktecture.IdentityServer.v3 (1.0.0-beta3-2)
+	Microsoft.Owin.Security.Cookies (3.0.0)
+	Microsoft.Owin.Security.OpenIdConnect (3.0.0)
+
+5) Added folder IdentityServer
+6) Copied idsrv3test.pfx from Identity Server samples to folder and set to copy to output if newer
+7) Added classes in folder Clients, Scopes, Users
+8) Added class Startup in root
+9) Modeled content in files from 7 and 8 after code from:
+	https://github.com/thinktecture/Thinktecture.IdentityServer.v3.Samples/tree/master/source/SelfHost%20(Minimal)/SelfHost
+10) Simplified Startup
