@@ -32,6 +32,13 @@ namespace Demo.IdentityServer
                         DisplayName = "Write data",
                         Type = ScopeType.Resource,
                         Emphasize = true,
+                    },
+                    new Scope
+                    {
+                        Enabled = true,
+                        Name = "authTestAPI",
+                        Description = "Access to demo auth test API",
+                        Type = ScopeType.Resource
                     }
                 });
             var scope = new Scope
